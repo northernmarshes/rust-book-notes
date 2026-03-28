@@ -1,9 +1,11 @@
 fn main() {
     // Scalar types
     // Integers:
+    
     // Signed
     let number: i32 = "42".parse().expect("Not a number!");
     println!("The numer is {number}");
+
     //Unsigned
     let unsigned_number: i32 = "52".parse().expect("Not a number!");
     println!("The unsigned numer is {unsigned_number}");
@@ -12,7 +14,7 @@ fn main() {
     let x = 2.0;
     let y: f32 = 3.0;
     
-    // Numeric operations
+    // Numeric operations:
     // Sum
     let sum = x + y;
     println!("The sum is {sum}");
@@ -46,7 +48,7 @@ fn main() {
     let z: char = 'u';
     println!("Chars are: {c}, {z}");
 
-    // Compound type variables
+    // Compound type variables:
 
     // Tuple
     let typ: (i32, f64, u8) = (500, 6.4, 1);
