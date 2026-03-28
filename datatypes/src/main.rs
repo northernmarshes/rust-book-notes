@@ -40,8 +40,29 @@ fn main() {
     let f: bool = false;
     println!("The boolean is {t}!");
 
-    // Char
+    // Chars
+
     let c = 'z';
-    println!("The char is {c}");
+    let z: char = 'u';
+    println!("Chars are: {c}, {z}");
+
+    // Compound type variables
+
+    // Tuple
+    let typ: (i32, f64, u8) = (500, 6.4, 1);
+    let first_value = typ.0;
+    println!("One of the tuple values is {first_value}.");
+
+    // Arrays are collections of single type with fixed lengh:
+
+    let numbers = [1, 2, 3, 4, 5];
+    
+    let months = ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"];
+    let third_month = months[2];
+    println!("{third_month}");
+
+    let fixed_type_numbers: [i32, 5] = [1, 2, 3, 4, 5];
+    let array_4 = [3; 5];
 }
 
