@@ -6,7 +6,7 @@ fn main() {
         println!("Condition was false");
     }
 
-    // This won't compile becouse number
+    // This won't compile because number
     // has to be a bool:
     // if number { 
     // println!("Something");
